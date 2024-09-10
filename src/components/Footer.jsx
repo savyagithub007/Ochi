@@ -2,11 +2,11 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className='w-full flex gap-5 h-screen bg-zinc-900 p-[3.5vw]'>
+    <div className='footer w-full flex gap-5 h-screen bg-[#F1F1F1] text-zinc-800 rounded-tl-[20px] rounded-tr-[20px] p-[3.5vw]'>
       <div className='w-1/2 h-full flex flex-col justify-between'>
       <div className='heading '>
-      <h1 className='text-[6.5vw] uppercase font-semibold leading-none -mb-15'>Eye-</h1>
-      <h1 className='text-[6.5vw] uppercase font-semibold leading-none -mb-15'>Opening</h1>
+      <h1 className='text-[8.5vw] uppercase font-semibold leading-none -mb-15'>Eye-</h1>
+      <h1 className='text-[8.5vw] uppercase font-semibold leading-none -mb-15'>Opening</h1>
       </div>
       <svg width="72" height="30" viewBox="0 0 72 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M9.8393 10.2032C4.22951 10.3257 -0.0459221 14.7356 0.000372391 20.2752C0.0412204 25.3548 4.57808 30.3608 10.6862 29.9226C15.5145 29.5768 19.9015 25.4119 19.8525 20.0057C19.8035 14.5995 15.1904 10.0916 9.8393 10.2032ZM9.89649 25.7005C6.87101 25.7005 4.39834 23.1144 4.40924 19.9839C4.39525 19.2507 4.52792 18.522 4.79947 17.8407C5.07102 17.1594 5.47597 16.5392 5.99056 16.0164C6.50515 15.4937 7.11902 15.0789 7.79613 14.7966C8.47324 14.5142 9.19995 14.3698 9.93362 14.372C10.6673 14.3742 11.3931 14.5228 12.0686 14.8092C12.744 15.0956 13.3554 15.514 13.8668 16.0398C14.3783 16.5656 14.7796 17.1882 15.0471 17.8711C15.3146 18.554 15.4429 19.2834 15.4246 20.0166C15.4409 23.1008 12.9111 25.7059 9.88832 25.7005H9.89649Z" fill="currentColor"></path>
@@ -16,14 +16,58 @@ function Footer() {
         <path d="M52.4097 10.1387C51.2512 10.1119 50.1066 10.3947 49.0941 10.958C48.0816 11.5212 47.2379 12.3445 46.6501 13.3427V0.172852H42.293V29.4688H46.6501C46.6501 29.1721 46.6501 18.7816 46.6501 18.7816C46.6501 15.6946 47.8619 13.4352 50.8084 13.4352C54.6046 13.4352 54.6209 17.4178 54.6209 19.6962C54.6209 22.9165 54.6209 25.5189 54.6209 28.7393V29.4987H59.0271C59.0271 29.3708 59.0488 29.2728 59.0488 29.1721C59.0488 25.5108 59.0951 21.8522 59.0325 18.1909C58.9916 15.6538 58.5015 10.1387 52.4097 10.1387Z" fill="currentColor"></path></svg>
       </div>
       <div className='w-1/2'>
-      <h1 className='text-[6.5vw] uppercase font-semibold leading-none -mb-15'>
+      <h1 className='text-[8.5vw] uppercase font-semibold leading-none -mb-15'>
         Presentations
         </h1>
-        <div className='dets mt-10'>
-            <a className='block text-xl font-light' href="#">Facebook</a>
-            <a className='block text-xl font-light' href="#">Instagram</a>
-            <a href="#">Twitter</a>
+       
+       <div className='dets mt-3 text-zinc-700'>
+          <h5 className='mb-[15px]'>S:</h5>
+        <div className='flex flex-col underline'>
+        <a href="#">Instagram</a>
+        <a href="#">Behance</a>
+        <a href="#">Facebook</a>
+        <a href="#">Linkedin</a>
         </div>
+
+        <div className='mt-[2vw] flex justify-between'>
+          <div className='dets flex flex-col gap-5'>
+          <h5 className='mb-[-5px]'>L:</h5>
+            <div className='flex flex-col'>
+            <a className='underline' href="#">202-1965 W 4th Ave</a>
+            <a className='underline' href="#">Vancouver, Canada</a>
+            </div>
+
+            <div className='flex flex-col'>
+              <a className='underline' href="#">30 Chukarina St</a>
+              <a className='underline' href="#">Lviv, Ukraine</a>
+            </div>
+          </div>
+
+          <div className='dets flex flex-col gap-5'>
+          <h5 className='mb-[-5px]'>M:</h5>
+            <div className='flex flex-col'>
+            <a className='underline' href="#">Home</a>
+            <a className='underline' href="#">Services</a>
+            <a className='underline' href="#">Our work</a>
+            <a className='underline' href="#">About us</a>
+            <a className='underline' href="#">Insights</a>
+            <a className='underline' href="#">Contact us</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div>
+          <h5 className='mb-[12px]'>E:</h5>
+          <a className='underline' href="#">hello@ochi.design</a>
+        </div>
+
+        <div className='mt-[35px] flex justify-between'>
+          <span className='text-zinc-400'>&copy; ochi design 2024. <a className='underline' href="#">Legal Teams</a></span>
+          <a className='text-zinc-400' href="#">Website by Obys</a>
+        </div>
+
+       </div>
       </div>
     </div>
   )

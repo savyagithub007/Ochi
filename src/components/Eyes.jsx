@@ -27,7 +27,7 @@ function Eyes() {
           Play
         </h3>
       <div style={{transform: `translate(-50%, -50%) rotate(${rotate}deg)`}} className='line absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-full h-10'>
-      <div className='w-5 h-5 rounded-full bg-zinc-100'></div>
+      <div className='w-4 h-4 rounded-full bg-zinc-100'></div>
       </div>
       </div>
       </div>
@@ -36,7 +36,7 @@ function Eyes() {
       <div className='relative w-[9.5vw] h-[9.5vw] bg-zinc-100 rounded-full bg-zinc-900 flex items-center justify-center'>
         Play
       <div style={{transform: `translate(-50%, -50%) rotate(${rotate}deg)`}} className='line absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-full h-10'>
-      <div className='w-5 h-5 rounded-full bg-zinc-100'></div>
+      <div className='w-4 h-4 rounded-full bg-zinc-100'></div>
       </div>
       </div>
       </div>

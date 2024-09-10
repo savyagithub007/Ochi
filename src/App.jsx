@@ -6,8 +6,10 @@ import About from './components/About.jsx'
 import Eyes from './components/Eyes.jsx'
 import Featured from './components/Featured.jsx'
 import Cards from './components/Cards.jsx'
-import Footer from './Footer.jsx'
+import Footer from './components/Footer.jsx'
 import LocomotiveScroll from 'locomotive-scroll';
+import Clients from './components/Clients.jsx'
+import Ready from './components/Ready.jsx'
 
 function App() {
 
@@ -23,7 +25,9 @@ const locomotiveScroll = new LocomotiveScroll();
       <About />
       <Eyes />
       <Featured /> 
+      <Clients />
       <Cards />
+      <Ready />
       <Footer />
     </div>
   )
